@@ -15,3 +15,24 @@
   font-style: oblique;
   text-shadow: 2px 2px 5px black;
 }
+
+.sec-main {
+  padding: 10px;
+}
+
+.div-main-container {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.main-div-lan {
+  min-height: 150px;
+  border: 1px red solid;
+  margin-bottom: 50px;
+}
+
+.main-div-output {
+  min-height: 200px;
+  border: 1px black solid;
+}
