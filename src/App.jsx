@@ -6,7 +6,7 @@ export default function App() {
   return (
     <>
       <Header title="Learn Web Development" />
-      <Main />
+      <Main languages={Languages} />
     </>
   );
 }
