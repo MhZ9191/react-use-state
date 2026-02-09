@@ -3,7 +3,7 @@ import CardLanguage from "./CardLanguage";
 import Languages from "../assets/data/Languages";
 
 export default function Main() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(null);
 
   return (
     <>
@@ -17,12 +17,14 @@ export default function Main() {
                     key={id}
                     title={title}
                     clickCard={() => setActive(index)}
+                    isActive={active}
+                    index={index}
                   />
                 );
               })}
             </div>
             <div className="main-div-output">
-              {Languages[active].description}
+              {Languages[active]?.description}
             </div>
           </div>
         </section>

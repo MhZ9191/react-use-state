@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Languages from "./assets/data/Languages";
 import Header from "./components/Header";
 import Main from "./components/Main";
