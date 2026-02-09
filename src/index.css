@@ -27,12 +27,25 @@
 }
 
 .main-div-lan {
-  min-height: 150px;
-  border: 1px red solid;
   margin-bottom: 50px;
+  display: flex;
+  gap: 30px;
 }
 
 .main-div-output {
   min-height: 200px;
-  border: 1px black solid;
+  border: 1px brown solid;
+  background-color: antiquewhite;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.languages-div {
+  padding: 15px;
+  border: 1px brown solid;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px black;
 }
