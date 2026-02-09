@@ -1,7 +1,9 @@
-export default function Cardlanguage({ title }) {
+export default function Cardlanguage({ title, clickCard }) {
   return (
     <>
-      <div className="languages-div">{title}</div>
+      <div className="languages-div" onClick={clickCard}>
+        {title}
+      </div>
     </>
   );
 }
