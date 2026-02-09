@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-title {
+  background-color: antiquewhite;
+  color: brown;
+  border-bottom: 1px brown solid;
+  text-align: center;
+  padding: 30px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-style: oblique;
+  text-shadow: 2px 2px 5px black;
+}
